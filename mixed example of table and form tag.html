@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>practice form for mixed form and table syntax</title>
+		<style>table,th,td{border:1px solid black;
+							border-collapse: collapse;}
+		</style>
+</head>
+<body>
+	<table style="width:100%">
+		<h1 style="text-align: center;">People ,preferences and their proffesion</h1>
+		<p style="text-align: center;">Many people have different preferences as well as different proffesion as the behaviour also varies among a group of people.<br>It is also common knowledge that your preferences mostly affects the selection of the proffession.<br>Some people as well as their preference as well their related field of proffession are given in the table given below:-
+		</p>
+		<tr>
+			<th>Name</th>
+			<th colspan="2">Preferences</th>
+			<th>Proffesion</th>
+		</tr>
+		<tr style="text-align: center;">
+			<td>Ram</td>
+			<td>Sports and exercise</td>
+			<td>Healyhy and nutritious diet</td>
+			<td>Personal trainner</td>
+		</tr>
+		<tr style="text-align: center;">
+			<td>Shyam</td>
+			<td>Mountainrering</td>
+			<td>Hiking</td>
+			<td>Tourist guide</td>
+		</tr>
+		<tr style="text-align: center;">
+			<td>Hari</td>
+			<td colspan="2">Technology</td>
+			<td>Electrical engineer</td>
+			
+		</tr>
+		
+	</table>
+		<p style="text-align: center;">As from analysing the above presented data it is clear<br>that people tend to chose the prpffession according to their prefered prefered preference.<br>so to help people to easilly knoe about the preferd proffesion <br>PLEASE FILL THE FOLLOWING FORM :</p>
+
+
+		<form style="text-align: center;">
+			Name:<input type="text" name="Persons name"><br>
+			Tell us about yourselves:<input type="text" name="Persons discription"><br>
+			Do your prefer exercise:<input type="radio" name="Physical preference" value="y">YES
+								   :<input type="radio" name="Physical preference" value="n">NO<br>
+			Do you prefer outdoor activities:<input type="radio" name="outdoor reference" value="y">YES
+										     :<input type="radio" name="outdoor reference" value="n">NO<br>
+			Prefered subject of intrest:
+									   :<input type="checkbox" name="interest" value="p">Politics
+									   :<input type="checkbox" name="interest" value="f">Foregin affairs
+									   :<input type="checkbox" name="interest" value="t">Gadgets and technology
+									   :<input type="checkbox" name="interest" value="g">Geology<br>
+
+			Do you like any form of labour?:
+											<input type="radio" name="labour" value="y">YES
+											<input type="radio" name="labour" value="n">NO <br>
+
+			<select genre="subject">Prefered subject
+				<option value="physics">Physics</option>
+				<option value="chemistry">Chemistry</option>
+				<option value="biology">Biology</option>
+				<option value="geology">Geology</option>
+				<option value="humanities">Humanities</option>
+				<option value="travel and tourism">Travel and tourism</option>
+				<option value="computer">Computer science</option>
+				<option value="law">Law</option>
+				<option value="arts">Arts</option>
+				<option value="litelature">Literature</option>
+				<option value="business">Business</option>
+				<option value="commerce">Commerce</option>			
+			</select><br>
+										<button>Submit Form</button>
+		</form>
+</body>
+</html>
