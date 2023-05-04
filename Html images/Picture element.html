@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Picture element</title>
+	
+<body>
+	<h2>Picture element</h2>
+	<picture>
+		 <source media="(min-width:750px)" srcset="Eren.jpg">
+  		 <source media="(min-width: 650px)" srcset="Buggati.jpg">
+ 		 <img src="white.jpg" style="width:auto;">
+	</picture>
+	<p>Resize the browser to see different versions of the picture loading at different viewport sizes.
+		The browser looks for the first source element where the media query matches the user's current viewport width,
+		and fetches the image specified in the srcset attribute.</p>
+
+
+</body>
+</html>
